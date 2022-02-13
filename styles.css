@@ -1,0 +1,194 @@
+html {
+    font-family: Poppins;
+}
+
+:root {
+    --light-gray: #d4d4d4;
+    --white: white;
+    --light-blue:#0ea5e9;
+    --blue: #0284c7;
+    --grey:#404040;
+}
+.background-form {
+    background-color: #f5f5f5;
+    height: 900px;
+    padding-top: 90px;
+}
+
+.forma {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px var(--light-gray);
+    margin-left: 150px;
+    overflow: hidden;
+    max-width: 1024px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.image {
+    width: 450px;
+    height: 850px; 
+}
+
+.background-white {
+    background-color: var(--white);
+    height: 850px;
+}
+
+.registration {/*заголовок регистрация*/
+    color: var(--light-blue);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+.registration-field {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form_input {
+width: 220px;
+height: 30px;
+border: 1px solid var(--light-gray);
+box-shadow: 0 0 0px ;
+border-radius: 5px;
+margin-right: 20px;
+font-size: 10px;
+margin-top: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.form_input:focus {
+    border-color: var(--light-blue);
+    outline: none;
+    border-width: 2px;
+}
+
+.line {/*полоска*/
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    }
+
+    .header {/*заголовок адреса*/
+        font-size: 20px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        margin-left: 50px;
+        font-weight: 600;
+    }
+    .adress {/*ФОРМА адреса*/
+        color: var(--grey);
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-adress{
+        width: 135px;
+        height: 35px;
+        border: 1px solid var(--light-gray);
+        box-shadow: 0 0 0px ;
+        border-radius: 5px;
+        margin-right: 20px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .form-adress:focus {
+        border-color: var(--blue);
+        outline: none;
+        border-width: 2px;
+    }
+
+    .adress-hous_input {/*адрес улицы,дома*/
+        width: 455px;
+        height: 35px;
+        border: 1px solid var(--light-gray);
+        box-shadow: 0 0 0px ;
+        border-radius: 5px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-right: 20px;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .adress-hous_input:focus {
+        border-color: var(--light-blue);
+        outline: none;
+        border-width: 2px;
+    }
+
+    .delivery-address-form {
+        color: var(--grey);
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 50px;
+        margin-right: 34px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text {
+        color: #737373;
+        margin-left: 50px;
+        margin-right: 25px;
+        line-height: 1;
+    }
+
+   #checkbox {
+       margin-left: 50px;
+       margin-top: 15px;
+   }
+
+   .notification-status {
+       font-size: 15px;
+       font-weight: 500;
+       color: var(--grey);
+   }
+
+   .button {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color:  var(--white);
+    background: var(--light-blue); /* Цвет фона */
+    padding: 10px 355px 15px 20px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 50px; 
+    text-align: center;
+   }
+
+   .button:hover{
+       background-color: var(--blue);
+   }
