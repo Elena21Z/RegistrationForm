@@ -180,7 +180,7 @@ justify-content: space-between;
     font-weight: 600;
     color:  var(--white);
     background: var(--light-blue); /* Цвет фона */
-    padding: 10px 355px 15px 20px; /* Поля вокруг текста */
+    padding: 10px 180px 15px 180px; /* Поля вокруг текста */
     border-radius: 5px; /* Уголки */
     border: none;
     outline: none;
